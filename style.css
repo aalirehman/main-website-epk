@@ -52,6 +52,7 @@ footer{
     margin: 35px auto 20px;
     border-radius: 50%;
     border: solid var(--color) 2px;
+	background-color: #6ee0e5
 }
 
 #userName{
@@ -63,6 +64,7 @@ footer{
     line-height: 1.25;
     display: block;
     color: var(--color);
+	visibility: hidden;
 }
 
 #links{
@@ -79,7 +81,7 @@ footer{
     font-size: 1rem;
     font-weight: 500;
     border-radius: 5px;
-    border: dashed var(--color) 2px;
+    border: solid var(--color) 2px;
     text-align: center;
     text-decoration: none;  
     color: var(--color);  
@@ -96,4 +98,30 @@ footer{
         --color: white;
     }
   }
-  
+
+.social-media {
+  text-align: center;
+  overflow: hidden;
+  width: 200px;  }
+.social-media h2 {
+  margin-top: 0;
+  margin-bottom: 0px; }
+.social-media h2 i {
+  color: #dd4b39; }
+.social-media div.list-social {
+  width: 100px; 
+  margin: 0 auto;
+  margin-bottom: 0; }
+.social-media div.list-social div a {
+  font-size: 20px;
+  line-height: 30px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  color: #d0d8c8;
+  float: left;
+  border-radius: 100%; }
+.social-media div.list-social div.social-media-icon a {
+  background-color: #222222; }
+.social-media div.list-social div.social-media-icon a:hover {
+  background-color: #4c4c4c; }
