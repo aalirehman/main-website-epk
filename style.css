@@ -2,8 +2,8 @@
 
 :root {
     --font: 'Roboto Mono', monospace;
-    --background: white;
-    --color: #232333;
+    --background: #202124;
+    --color: white;
 }
 
 body{
@@ -102,26 +102,38 @@ footer{
 .social-media {
   text-align: center;
   overflow: hidden;
-  width: 200px;  }
+  width: 400px;  }
 .social-media h2 {
   margin-top: 0;
   margin-bottom: 0px; }
 .social-media h2 i {
   color: #dd4b39; }
 .social-media div.list-social {
-  width: 100px; 
+  width: 300px;
+  align-items: center;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 0; }
 .social-media div.list-social div a {
-  font-size: 20px;
-  line-height: 30px;
-  display: block;
-  width: 30px;
-  height: 30px;
+  font-size: 25px;
+  line-height: 35px;
+  align-items: center;
+  display: inline-block;
+  margin: auto;
+  padding: 3px;
+  width: 35px;
+  height: 35px;
   color: #d0d8c8;
-  float: left;
   border-radius: 100%; }
 .social-media div.list-social div.social-media-icon a {
   background-color: #222222; }
 .social-media div.list-social div.social-media-icon a:hover {
   background-color: #4c4c4c; }
+  
+  
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
