@@ -174,3 +174,11 @@ footer{
 .disabled {
     filter: brightness(55%);
 }
+
+.caption {
+    font-family: var(--font);
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+    font-size: 5px;
+    margin-top: 1px;
+}
