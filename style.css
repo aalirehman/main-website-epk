@@ -183,32 +183,32 @@ footer{
     margin-top: 1px;
 }
 
-.spotify-cta {
+.link.spotify-cta {
     color: #d0d8c8;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("./img/spotify.png");
     background-size: 100%;
 }
 
-.double-vision {
+.link.double-vision {
     color: #d0d8c8;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://geo-media.beatport.com/image_size/1400x1400/ee9d43bd-87e1-4e00-b821-4cf2239a2e88.jpg");
     background-size: 30%;
     font-family: var(--font);
 }
 
-.strip {
+.link.strip {
     color: #d0d8c8;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://geo-media.beatport.com/image_size/1400x1400/1bdc96ae-5c6f-434b-9b5b-ee1e604eecbd.jpg");
     background-size: 30%;
 }
 
-.core-dump {
+.link.core-dump {
     color: #d0d8c8;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://geo-media.beatport.com/image_size/1400x1400/098a63fe-1a3c-4023-aea5-c9f8b1e5f857.jpg");
     background-size: 30%;
 }
 
-.step-into {
+.link.step-into {
     color: #d0d8c8;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://geo-media.beatport.com/image_size/1400x1400/81d8bb5d-5768-43a4-9bc6-3d831e5622cd.jpg");
     background-size: 30%;
