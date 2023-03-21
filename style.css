@@ -221,3 +221,9 @@ footer{
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://geo-media.beatport.com/image_size/1400x1400/48ad8ec8-841b-467a-b29b-2a6ca1298fd7.jpg");
     background-size: 30%;
 }
+
+.link.illusion {
+    color: #d0d8c8;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://distrokid.imgix.net/http%3A%2F%2Fgather.fandalism.com%2F4296698--C777012B-482D-47D7-A41239792732BAB9--0--4542300--illusion1.png?fm=jpg&q=75&w=800&s=7116157053e1292ecef9726b0f68444e");
+    background-size: 30%;
+}
