@@ -215,3 +215,9 @@ footer{
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://geo-media.beatport.com/image_size/1400x1400/81d8bb5d-5768-43a4-9bc6-3d831e5622cd.jpg");
     background-size: 30%;
 }
+
+.link.escalation {
+    color: #d0d8c8;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://geo-media.beatport.com/image_size/1400x1400/48ad8ec8-841b-467a-b29b-2a6ca1298fd7.jpg");
+    background-size: 30%;
+}
