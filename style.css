@@ -73,7 +73,12 @@ footer{
     max-width: 90%;
     width: 70%;
     display: block;
-    margin: 27px auto;
+}
+
+#events{
+    max-width: 100%;
+    width: 100%;
+    display: block;
 }
 
 .link{
@@ -88,7 +93,20 @@ footer{
     text-decoration: none;
     color: var(--color);
     word-wrap: break-word;
+}
 
+.event{
+    display: block;
+    /*margin-bottom: 20px;*/
+    padding: 10px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    /*border-radius: 5px;*/
+    /*border: solid var(--color) 2px;*/
+    text-align: center;
+    text-decoration: none;
+    color: var(--color);
+    word-wrap: break-word;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -225,5 +243,11 @@ footer{
 .link.illusion {
     color: #d0d8c8;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://geo-media.beatport.com/image_size/1400x1400/64d07940-47f4-4b49-b1db-c68056147941.jpg");
+    background-size: 30%;
+}
+
+.link.invoke {
+    color: #d0d8c8;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i1.sndcdn.com/artworks-2YcwbnMZkXykUhSN-3XAmKQ-t500x500.jpg");
     background-size: 30%;
 }
