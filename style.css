@@ -48,6 +48,7 @@ footer{
 }
 
 #userPhoto{
+    object-fit: cover;
     width: 96px;
     height: 96px;
     display: block;
@@ -76,9 +77,12 @@ footer{
 }
 
 #events{
-    max-width: 100%;
-    width: 100%;
+    max-width: 90%;
+    width: 70%;
     display: block;
+    /*max-width: 100%;*/
+    /*width: 100%;*/
+    /*display: block;*/
 }
 
 .link{
@@ -89,20 +93,6 @@ footer{
     font-weight: 500;
     border-radius: 5px;
     border: solid var(--color) 2px;
-    text-align: center;
-    text-decoration: none;
-    color: var(--color);
-    word-wrap: break-word;
-}
-
-.event{
-    display: block;
-    /*margin-bottom: 20px;*/
-    padding: 10px;
-    font-size: 0.75rem;
-    font-weight: 500;
-    /*border-radius: 5px;*/
-    /*border: solid var(--color) 2px;*/
     text-align: center;
     text-decoration: none;
     color: var(--color);
@@ -199,7 +189,7 @@ footer{
     font-family: var(--font);
     /* Make the caption a block so it occupies its own line. */
     display: block;
-    font-size: 5px;
+    font-size: 0px;
     margin-top: 1px;
 }
 
@@ -249,5 +239,19 @@ footer{
 .link.invoke {
     color: #d0d8c8;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://geo-media.beatport.com/image_size/1400x1400/177b7891-0b5b-4197-b096-5355ddb1f222.jpg");
+    background-size: 30%;
+}
+
+.link.cristoph {
+    color: #d0d8c8;
+    font-size: 9px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://static.tixr.com/static/images/external/img/c9cf3586-94fe-4354-befd-e4ec8bb2e49a.jpg");
+    background-size: 30%;
+}
+
+.link.tdj {
+    color: #d0d8c8;
+    font-size: 9px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/NWMlwAc.png");
     background-size: 30%;
 }
