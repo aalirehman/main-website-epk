@@ -80,9 +80,12 @@ footer{
     max-width: 90%;
     width: 70%;
     display: block;
-    /*max-width: 100%;*/
-    /*width: 100%;*/
-    /*display: block;*/
+}
+
+#mixes{
+    max-width: 90%;
+    width: 70%;
+    display: block;
 }
 
 .link{
@@ -253,5 +256,11 @@ footer{
     color: #d0d8c8;
     font-size: 9px;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/NWMlwAc.png");
+    background-size: 30%;
+}
+
+.link.soundcloud-cta {
+    color: #d0d8c8;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/rkorNuM.jpeg");
     background-size: 30%;
 }
