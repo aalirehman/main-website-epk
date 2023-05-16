@@ -247,15 +247,22 @@ footer{
 
 .link.cristoph {
     color: #d0d8c8;
-    font-size: 9px;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://static.tixr.com/static/images/external/img/c9cf3586-94fe-4354-befd-e4ec8bb2e49a.jpg");
+    font-size: 13px;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://static.tixr.com/static/images/external/img/c9cf3586-94fe-4354-befd-e4ec8bb2e49a.jpg");
     background-size: 30%;
 }
 
 .link.tdj {
     color: #d0d8c8;
-    font-size: 9px;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/NWMlwAc.png");
+    font-size: 13px;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.imgur.com/NWMlwAc.png");
+    background-size: 30%;
+}
+
+.link.funky-brunch {
+    color: #d0d8c8;
+    font-size: 13px;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://gcdnb.pbrd.co/images/NNjmbDH6nL01.png");
     background-size: 30%;
 }
 
