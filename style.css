@@ -280,6 +280,19 @@ footer{
     background-size: 30%;
 }
 
+.link.lotus {
+    color: #d0d8c8;
+    font-size: 13px;
+    background-size: 30%;
+
+    /* Change back to 0.7 */
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("https://i.imgur.com/WJWt0GT.jpg");
+    /* Remove */
+    pointer-events: none;
+}
+
+
+
 .link.soundcloud-cta {
     color: #d0d8c8;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/rkorNuM.jpeg");
