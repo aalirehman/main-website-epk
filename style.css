@@ -284,11 +284,7 @@ footer{
     color: #d0d8c8;
     font-size: 13px;
     background-size: 30%;
-
-    /* Change back to 0.7 */
-    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url("https://i.imgur.com/WJWt0GT.jpg");
-    /* Remove */
-    pointer-events: none;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.imgur.com/WJWt0GT.jpg");
 }
 
 
