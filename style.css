@@ -287,7 +287,12 @@ footer{
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.imgur.com/WJWt0GT.jpg");
 }
 
-
+.link.nicole {
+    color: #d0d8c8;
+    font-size: 13px;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.imgur.com/5kidhHx.png");
+    background-size: 30%;
+}
 
 .link.soundcloud-cta {
     color: #d0d8c8;
