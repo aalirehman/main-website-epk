@@ -70,9 +70,43 @@ footer{
     visibility: hidden;
 }
 
+#press-material-link{
+    max-width: 90%;
+    width: 70%;
+    display: block;
+}
+
+#press-links{
+    max-width: 90%;
+    width: 70%;
+    display: block;
+}
+
 #links{
     max-width: 90%;
     width: 70%;
+    display: block;
+}
+
+#bio{
+    width: 500px;
+    font-size: 0.75rem;
+    max-width: 90%;
+    overflow: hidden;
+    word-wrap: break-word; /* Allow words to break and wrap onto the next line */
+    overflow-wrap: break-word; /* Internet Explorer 5.5-11 */
+    /*width: 70%;*/
+    display: block;
+}
+
+#event-history{
+    width: 700px;
+    font-size: 0.75rem;
+    max-width: 90%;
+    overflow: hidden;
+    word-wrap: break-word; /* Allow words to break and wrap onto the next line */
+    overflow-wrap: break-word; /* Internet Explorer 5.5-11 */
+    /*width: 70%;*/
     display: block;
 }
 
@@ -96,6 +130,19 @@ footer{
     font-weight: 500;
     border-radius: 5px;
     border: solid var(--color) 2px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--color);
+    word-wrap: break-word;
+}
+
+.press-link{
+    display: block;
+    margin-bottom: 20px;
+    padding: 17px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 5px;
     text-align: center;
     text-decoration: none;
     color: var(--color);
