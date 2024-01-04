@@ -99,7 +99,7 @@ footer{
     display: block;
 }
 
-#epk-releases{
+.epk-releases{
     width: 500px;
     font-size: 0.75rem;
     max-width: 90%;
@@ -120,6 +120,14 @@ footer{
     overflow-wrap: break-word; /* Internet Explorer 5.5-11 */
     /*width: 70%;*/
     display: block;
+}
+
+.epk-mix-link{
+    font-size: 0.75rem;
+    color: var(--color);
+    text-decoration: none;
+    text-transform: uppercase;
+    /*width: 70%;*/
 }
 
 #events{
