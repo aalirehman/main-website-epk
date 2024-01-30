@@ -347,6 +347,21 @@ footer{
     background-size: 30%;
 }
 
+.link.cielo {
+    color: #d0d8c8;
+    font-size: 13px;
+    background-image: linear-gradient(rgba(145, 49, 49, 0.7), rgba(0,0,0,0.7));
+    background-size: 30%;
+    pointer-events: none;
+}
+
+.link.jade {
+    color: #d0d8c8;
+    font-size: 13px;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.imgur.com/lKXcXN6.jpeg");
+    background-size: 30%;
+}
+
 .link.legacy {
     color: #d0d8c8;
     font-size: 13px;
