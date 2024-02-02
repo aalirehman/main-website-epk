@@ -350,9 +350,8 @@ footer{
 .link.cielo {
     color: #d0d8c8;
     font-size: 13px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0,0,0,0.9));
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9pbWFnZXMucmEuY28vZjJhYmEyOTU5MmQxOTIxZDFiMzU3M2Q0NzdkYTBhNWJmNGQ4MTM5Yy5wbmc=");
     background-size: 30%;
-    pointer-events: none;
 }
 
 .link.jade {
