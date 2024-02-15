@@ -366,7 +366,6 @@ footer{
     font-size: 13px;
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.imgur.com/g2PizJw.jpeg");
     background-size: 30%;
-    pointer-events: none;
 }
 
 .link.legacy {
