@@ -110,6 +110,16 @@ footer{
     display: block;
 }
 
+#epk-affiliations{
+    width: 700px;
+    font-size: 0.75rem;
+    max-width: 90%;
+    overflow: hidden;
+    word-wrap: break-word; /* Allow words to break and wrap onto the next line */
+    overflow-wrap: break-word; /* Internet Explorer 5.5-11 */
+    /*width: 70%;*/
+    display: block;
+}
 
 #epk-event-history{
     width: 700px;
