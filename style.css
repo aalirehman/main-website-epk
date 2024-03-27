@@ -322,80 +322,16 @@ footer{
     background-size: 30%;
 }
 
-.link.cristoph {
-    color: #d0d8c8;
-    font-size: 13px;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://static.tixr.com/static/images/external/img/c9cf3586-94fe-4354-befd-e4ec8bb2e49a.jpg");
-    background-size: 30%;
-}
-
-.link.tdj {
-    color: #d0d8c8;
-    font-size: 13px;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.imgur.com/NWMlwAc.png");
-    background-size: 30%;
-}
-
-.link.yacht-haus {
-    color: #d0d8c8;
-    font-size: 13px;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.imgur.com/fSmLB54.jpeg");
+.link.muted {
+     color: #d0d8c8;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://geo-media.beatport.com/image_size/1400x1400/720ef076-adab-4be6-8571-ea95fe790429.jpg");
     background-size: 30%;
 }
 
 .link.integrate {
     color: #d0d8c8;
     font-size: 13px;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.imgur.com/dxlfnQN.jpeg");
-    background-size: 30%;
-}
-
-.link.bergerac {
-    color: #d0d8c8;
-    font-size: 13px;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.imgur.com/6OgXVQX.png");
-    background-size: 30%;
-}
-
-.link.cielo {
-    color: #d0d8c8;
-    font-size: 13px;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9pbWFnZXMucmEuY28vZjJhYmEyOTU5MmQxOTIxZDFiMzU3M2Q0NzdkYTBhNWJmNGQ4MTM5Yy5wbmc=");
-    background-size: 30%;
-}
-
-.link.jade {
-    color: #d0d8c8;
-    font-size: 13px;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.imgur.com/lKXcXN6.jpeg");
-    background-size: 30%;
-}
-
-.link.brussels {
-    color: #d0d8c8;
-    font-size: 13px;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.imgur.com/g2PizJw.jpeg");
-    background-size: 30%;
-}
-
-.link.legacy {
-    color: #d0d8c8;
-    font-size: 13px;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.imgur.com/HLe80Pn.jpg");
-    background-size: 30%;
-}
-
-.link.lotus {
-    color: #d0d8c8;
-    font-size: 13px;
-    background-size: 30%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.imgur.com/WJWt0GT.jpg");
-}
-
-.link.nicole {
-    color: #d0d8c8;
-    font-size: 13px;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.imgur.com/5kidhHx.png");
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://i.imgur.com/0c7Lnet.png");
     background-size: 30%;
 }
 
