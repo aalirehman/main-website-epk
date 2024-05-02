@@ -335,6 +335,13 @@ footer{
     background-size: 30%;
 }
 
+.link.wondergate {
+    color: #d0d8c8;
+    font-size: 13px;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://res.cloudinary.com/shotgun/image/upload/ar_16:9,c_limit,f_auto,fl_lossy,q_auto,w_1280/v1714418846/production/artworks/Facebook_Layout_nrldni");
+    background-size: 30%;
+}
+
 .link.soundcloud-cta {
     color: #d0d8c8;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/rkorNuM.jpeg");
