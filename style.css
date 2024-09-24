@@ -334,17 +334,17 @@ footer{
     background-size: 30%;
 }
 
-.link.integrate {
+.link.bloom {
     color: #d0d8c8;
     font-size: 13px;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9pbWFnZXMucmEuY28vNmVhNWFkYjk2ZjYwMGVhMjk2MzQ4YjA3ZThkYThmODk5OWY2ZWI4YS5wbmc=");
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://static.tixr.com/static/images/external/img/8e4ab126-7a80-41f6-8798-498161a8b388.jpg");
     background-size: 30%;
 }
 
 .link.wondergate {
     color: #d0d8c8;
     font-size: 13px;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://res.cloudinary.com/shotgun/image/upload/ar_16:9,c_limit,f_auto,fl_lossy,q_auto,w_1280/v1714418846/production/artworks/Facebook_Layout_nrldni");
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://static.wixstatic.com/media/aaead1_8fd5e74387654787ba08747c4cf2b1b8~mv2.png/v1/fill/w_966,h_543,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/RAXON_FB.png");
     background-size: 30%;
 }
 
