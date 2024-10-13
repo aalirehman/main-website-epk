@@ -348,13 +348,6 @@ footer{
     background-size: 30%;
 }
 
-.link.exomoon {
-    color: #d0d8c8;
-    font-size: 13px;
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9pbWFnZXMucmEuY28vNWJlZmU1MDhjYzQ5ODYxN2M1YzBiZGQ4OGVkMjc0NGFmY2Q0ZDNkMC5qcGc=");
-    background-size: 30%;
-}
-
 .link.soundcloud-cta {
     color: #d0d8c8;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/rkorNuM.jpeg");
