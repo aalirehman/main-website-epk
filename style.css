@@ -334,13 +334,6 @@ footer{
     background-size: 30%;
 }
 
-.link.bloom {
-    color: #d0d8c8;
-    font-size: 13px;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("https://static.tixr.com/static/images/external/img/8e4ab126-7a80-41f6-8798-498161a8b388.jpg");
-    background-size: 30%;
-}
-
 .link.wondergate {
     color: #d0d8c8;
     font-size: 13px;
