@@ -334,6 +334,12 @@ footer{
     background-size: 30%;
 }
 
+.link.tranquilizer {
+    color: #d0d8c8;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://geo-media.beatport.com/image_size/1400x1400/2764fc9d-1a73-458e-b6f6-ed274ebaa9a5.jpg");
+    background-size: 30%;
+}
+
 .link.integrate {
     color: #d0d8c8;
     font-size: 13px;
