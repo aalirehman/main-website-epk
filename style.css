@@ -357,3 +357,17 @@ footer{
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/rkorNuM.jpeg");
     background-size: 30%;
 }
+
+.link.matador {
+    color: #d0d8c8;
+    font-size: 13px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9pbWFnZXMucmEuY28vZWUzZTI3NWExMzIwNzhjMTQ2MzcxY2RmYjhhZTBkZjhhNDBjNzE3MS5wbmc=");
+    background-size: 30%;
+}
+
+.link.darc {
+    color: #d0d8c8;
+    font-size: 13px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/p8ZC1IJ.png");
+    background-size: 30%;
+}
