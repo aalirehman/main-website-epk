@@ -371,3 +371,10 @@ footer{
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/p8ZC1IJ.png");
     background-size: 30%;
 }
+
+.link.theus {
+    color: #d0d8c8;
+    font-size: 13px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/KsSawZJ.jpeg");
+    background-size: 30%;
+}
