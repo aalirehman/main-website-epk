@@ -352,6 +352,12 @@ footer{
     background-size: 30%;
 }
 
+.link.obscurity {
+    color: #d0d8c8;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://geo-media.beatport.com/image_size/1400x1400/73d45321-7a1e-4dc0-84da-eed74f4ad507.jpg");
+    background-size: 30%;
+}
+
 .link.soundcloud-cta {
     color: #d0d8c8;
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/rkorNuM.jpeg");
