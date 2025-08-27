@@ -369,3 +369,10 @@ footer{
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/rkorNuM.jpeg");
     background-size: 30%;
 }
+
+.link.wondergate {
+    color: #d0d8c8;
+    font-size: 11px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://imgproxy.ra.co/_/quality:66/w:1442/rt:fill/aHR0cHM6Ly9pbWFnZXMucmEuY28vMDY3YjIwMzhhYzQ4ZDExNTY5NGY3ZTUzNzExYmY1M2ZiZDM0N2QzZS5wbmc=");
+    background-size: 30%;
+}
