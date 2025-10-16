@@ -512,8 +512,9 @@ body {
 
 /* Biography Section */
 .biography {
-    padding: 2rem 0;
-    background: rgba(0, 0, 0, 0.2);
+    padding: 4rem 0;
+    background: rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 .biography__container {
@@ -525,19 +526,28 @@ body {
 .biography__content {
     max-width: 800px;
     margin: 0 auto;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 
 .biography__text {
+    background: var(--card-bg);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    box-shadow: var(--shadow);
+}
+
+.biography__paragraph {
     font-size: 1.1rem;
     color: var(--text-secondary);
     margin-bottom: 1.5rem;
-    line-height: 1.6;
+    line-height: 1.7;
     font-weight: 300;
-    text-align: justify;
+    text-align: left;
 }
 
-.biography__text:last-child {
+.biography__paragraph:last-child {
     margin-bottom: 0;
 }
 
