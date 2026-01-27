@@ -44,7 +44,7 @@ body {
     background: rgba(0, 0, 0, 0.1);
     position: relative;
     overflow: hidden;
-    padding: 0.5rem 0;
+    padding: 0.5rem 0 0 0;
 }
 
 
@@ -241,7 +241,7 @@ body {
 
 /* Mixes Section */
 .mixes {
-    padding: 2rem 0;
+    padding: 1rem 0 2rem 0;
     background: rgba(0, 0, 0, 0.1);
 }
 
@@ -253,14 +253,18 @@ body {
 
 .mixes__content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    gap: 1.5rem;
     margin-top: 1.5rem;
 }
 
 .mixes__card {
     position: relative;
     height: 200px;
-    width: 400px;
+    flex: 1 1 280px;
+    max-width: 400px;
+    min-width: 280px;
     border-radius: var(--border-radius);
     overflow: hidden;
     text-decoration: none;
@@ -304,6 +308,16 @@ body {
 
 .mixes__card.soundcloud-cta {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i.imgur.com/rkorNuM.jpeg");
+    background-size: cover;
+}
+
+.mixes__card.solstice-mix {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i1.sndcdn.com/artworks-ReVVTFD8rvyvuy1b-41JPbA-t500x500.jpg");
+    background-size: cover;
+}
+
+.mixes__card.lmg-mix {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i1.sndcdn.com/artworks-YiAzblIYUl3jyHCX-gn8FSw-t500x500.jpg");
     background-size: cover;
 }
 
@@ -373,8 +387,13 @@ body {
 
 /* Album Artwork Backgrounds */
 .release-card.spotify-cta {
-    background: linear-gradient(135deg, #1db954 0%, #1ed760 100%);
+    background: linear-gradient(135deg, #157a38 0%, #178b42 100%);
     color: white;
+}
+
+.release-card.departure {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://geo-media.beatport.com/image_size/1400x1400/f3ebba76-d2c2-4dde-83c8-d8bba20921e4.jpg");
+    background-size: cover;
 }
 
 .release-card.turismo {
@@ -512,7 +531,7 @@ body {
 
 /* Biography Section */
 .biography {
-    padding: 4rem 0;
+    padding: 1rem 0 2rem 0;
     background: rgba(0, 0, 0, 0.1);
     position: relative;
 }
