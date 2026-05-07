@@ -592,6 +592,8 @@ body {
 }
 
 .event-item {
+    display: block;
+    text-decoration: none;
     background: var(--card-bg);
     border-radius: var(--border-radius);
     padding: 1rem;
@@ -627,7 +629,7 @@ body {
 }
 
 .event-item.featured::after {
-    content: '★';
+    content: '';
     position: absolute;
     top: 0.5rem;
     right: 0.5rem;
