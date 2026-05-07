@@ -703,6 +703,80 @@ body {
     font-weight: 400;
 }
 
+/* Label Section */
+.label {
+    padding: 2rem 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.label__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.label__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.label__card {
+    position: relative;
+    height: 150px;
+    flex: 1 1 280px;
+    max-width: 400px;
+    min-width: 280px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    text-decoration: none;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.label__card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-hover);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.label__card--promo {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+}
+
+.label__card--demo {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+}
+
+.label__card-content {
+    padding: 2rem;
+    text-align: center;
+    color: var(--text-primary);
+}
+
+.label__card-title {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: -0.01em;
+}
+
+.label__card-subtitle {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-weight: 300;
+    font-family: 'JetBrains Mono', monospace;
+    text-transform: lowercase;
+    letter-spacing: 0.05em;
+}
+
 /* Footer */
 .footer {
     background: var(--secondary-color);
@@ -771,8 +845,13 @@ body {
     .releases__container,
     .press-materials__container,
     .biography__container,
-    .events__container {
+    .events__container,
+    .label__container {
         padding: 0 1rem;
+    }
+
+    .label__card {
+        max-width: 350px;
     }
 
     .press-materials__card {
