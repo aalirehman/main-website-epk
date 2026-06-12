@@ -404,7 +404,7 @@ body {
 
 /* Album Artwork Backgrounds */
 .release-card.spotify-cta {
-    background: linear-gradient(135deg, #116b30 0%, #137a38 100%);
+    background: linear-gradient(135deg, #148a3e 0%, #169c47 100%);
     color: white;
 }
 
