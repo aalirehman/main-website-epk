@@ -311,13 +311,13 @@ body {
     background-size: cover;
 }
 
-.mixes__card.solstice-mix {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i1.sndcdn.com/artworks-ReVVTFD8rvyvuy1b-41JPbA-t500x500.jpg");
+.mixes__card.current-mix {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i1.sndcdn.com/artworks-bRTWMphzRwC5VMYp-8jyDsA-t500x500.jpg");
     background-size: cover;
 }
 
-.mixes__card.lmg-mix {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i1.sndcdn.com/artworks-YiAzblIYUl3jyHCX-gn8FSw-t500x500.jpg");
+.mixes__card.solstice-mix {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i1.sndcdn.com/artworks-bRTWMphzRwC5VMYp-8jyDsA-t500x500.jpg");
     background-size: cover;
 }
 
