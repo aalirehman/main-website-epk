@@ -408,6 +408,28 @@ body {
     color: white;
 }
 
+.release-card.transmit {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://download.feiyr.com/cover/65/0/10368866_539.jpg");
+    background-size: cover;
+}
+
+.release-card.transmit .release-card__badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.3rem 0.75rem;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 50px;
+    font-size: 0.65rem;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--text-primary);
+}
+
 .release-card.permission {
     background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://geo-media.beatport.com/image_size/1400x1400/5ccb80a3-255e-4323-9dbe-07498578cddf.jpg");
     background-size: cover;
