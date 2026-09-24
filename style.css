@@ -311,8 +311,8 @@ body {
     background-size: cover;
 }
 
-.mixes__card.current-mix {
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i1.sndcdn.com/artworks-bRTWMphzRwC5VMYp-8jyDsA-t500x500.jpg");
+.mixes__card.afterglow-mix {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://i1.sndcdn.com/artworks-L3JS5Ny7fNFmCdz2-z49kyA-t500x500.jpg");
     background-size: cover;
 }
 
